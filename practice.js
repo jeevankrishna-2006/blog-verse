@@ -30,6 +30,11 @@ console.log(person.name)
 
 console.log(person.age)
 console.log(typeof person)
+console.log(person[age])
+console.log(person[name])
+
+
+
 
 
 
