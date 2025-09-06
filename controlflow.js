@@ -14,7 +14,7 @@ else if (marks>=60){
 else{
     console.log("fail")
 }
-let ch=5;
+let ch=1;
 switch(ch)
 {
     case 1:
@@ -40,6 +40,26 @@ switch(ch)
         break;
     default:
         console.log("Invalid")
-        break;s
+        break;
 }
-    
+while(ch<10)
+{
+    console.log(ch)
+    ch+=1;
+}
+let colors=["red","blue","green"];
+for(let i=0;i<colors.length;i++)
+    console.log(colors[i])
+for (let color of colors)
+    console.log(color)
+let person={
+    age:19,
+    collage:"gvl"
+}
+for(let key in person){
+    console.log(`${key}: ${person[key]}`)
+}
+do{
+    console.log(ch)
+    ch-=1;
+}while(ch>0)
